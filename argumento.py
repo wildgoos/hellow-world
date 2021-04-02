@@ -8,7 +8,7 @@ while len(argv) > 0:
     if arg in ('-f', '--foo'):
         print('Hello foo!')
     elif arg in ('-b', '--bar'):
-        print('Hello bar!')
+        print('Hello World!')
     elif arg in ('-a', '--with-arg'):
         arg = arg.pop()
         print('seen value: {}'.format(arg))
